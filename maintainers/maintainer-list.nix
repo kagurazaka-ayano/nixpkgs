@@ -2658,6 +2658,13 @@
     github = "Axler1";
     githubId = 69816272;
   };
+  ayano-kagurazaka = {
+    name = "Ayano Kagurazaka";
+    email = "kagurazaka-ayano@outlook.com";
+    github = "kagurazaka-ayano";
+    githubId = 128056314;
+    keys = [ { fingerprint = "3FDB 2A1E D830 9763 5014  72AC 701E BC34 2CE8 2515"; } ];
+  };
   ayazhafiz = {
     email = "ayaz.hafiz.1@gmail.com";
     github = "hafiz";
