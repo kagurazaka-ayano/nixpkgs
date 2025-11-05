@@ -148,6 +148,8 @@ python3.pkgs.buildPythonApplication rec {
     "--deselect=tests/test_browsers_iradio.py::TInternetRadio::test_click_add_station"
     # upstream does actually not enforce source code linting
     "--ignore=tests/quality"
+    # marked as flaky, breaks in sandbox
+    "--deselect=tests/test_library_file.py::TWatchedFileLibrary::test_watched_adding"
   ]
   ++ lib.optionals (withXineBackend || !withGstPlugins) [
     "--ignore=tests/plugin/test_replaygain.py"
@@ -191,8 +193,6 @@ python3.pkgs.buildPythonApplication rec {
     '';
     homepage = "https://quodlibet.readthedocs.io/en/latest";
     license = lib.licenses.gpl2Plus;
-    maintainers = with lib.maintainers; [
-      pbogdan
-    ];
+    maintainers = [ ];
   };
 }
