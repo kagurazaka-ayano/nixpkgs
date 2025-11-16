@@ -2672,6 +2672,12 @@
     github = "Axler1";
     githubId = 69816272;
   };
+  ayano-kagurazaka = {
+    email = "kagurazaka-ayano@outlook.com";
+    github = "kagurazaka-ayano";
+    githubId = 128056314;
+    name = "Ayano Kagurazaka";
+  };
   ayazhafiz = {
     email = "ayaz.hafiz.1@gmail.com";
     github = "hafiz";
